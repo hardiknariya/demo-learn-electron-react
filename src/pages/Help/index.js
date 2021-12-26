@@ -1,12 +1,12 @@
 import React from "react";
 import { MainLayout } from "../../components";
-import "./Dashboard.scss";
+import "./Help.scss";
 
-export default function Dashboard() {
+export default function Help() {
   return (
     <MainLayout>
-      <div id="Dashboard">
-        <h1> Hello Dashboard</h1>
+      <div id="Help">
+        <h1> Hello Help</h1>
       </div>
     </MainLayout>
   );
